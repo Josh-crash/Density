@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Density converter</string>
+    <string name="image_decreiption">goil logo</string>
+    <string name="text_logo">Goil</string>
+    <string name="text_logo_energy">energy</string>
+    <string name="observed_density">(Kg/m&lt;sup&gt;3&lt;/sup&gt;)</string>
+    <string name="observed_temperature">(&lt;sup&gt;o&lt;/sup&gt;C)</string>
+</resources>
