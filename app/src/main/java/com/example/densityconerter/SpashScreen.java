@@ -21,7 +21,7 @@ public class SpashScreen extends AppCompatActivity {
         TextView goilTextView = findViewById(R.id.textView);
 
         SpannableString spanText = new SpannableString("Goil\n energy");
-        spanText.setSpan(new RelativeSizeSpan(1.5f), 1, 3, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+        spanText.setSpan(new RelativeSizeSpan(1.5f), 0, 4, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
         goilTextView.setText(spanText, TextView.BufferType.SPANNABLE);
 
 
@@ -33,6 +33,6 @@ public class SpashScreen extends AppCompatActivity {
                 startActivity(intent);
 
             }
-        },3000);
+        },1000);
     }
 }

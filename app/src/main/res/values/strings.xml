@@ -5,4 +5,7 @@
     <string name="text_logo_energy">energy</string>
     <string name="observed_density">(Kg/m&lt;sup&gt;3&lt;/sup&gt;)</string>
     <string name="observed_temperature">(&lt;sup&gt;o&lt;/sup&gt;C)</string>
+    <string name="calculate_button">Calculate</string>
+    <string name="density">Observed Density</string>
+    <string name="temperature">Observed Temperature</string>
 </resources>
