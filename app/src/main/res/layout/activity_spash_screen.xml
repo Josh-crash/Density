@@ -8,15 +8,16 @@
     android:background="@drawable/splash_screen"
     tools:context=".SpashScreen">
 
-<!--
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:paddingTop="200dp"
-        android:src="@mipmap/goil_logo" />
-        -->
+        android:background="#00FFFFFF"
+        android:paddingTop="100dp"
+        android:src="@drawable/gh_goil_logo" />
+ <!--
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -31,7 +32,7 @@
         android:typeface="sans">
 
      </TextView>
-<!--
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

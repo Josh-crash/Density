@@ -6,7 +6,7 @@
         android:type="linear"
         android:angle="135"
         android:startColor="@color/orange_deep"
-        android:endColor="@color/orange_light"
+        android:endColor="@color/logo_color_check_one"
 
 
         />

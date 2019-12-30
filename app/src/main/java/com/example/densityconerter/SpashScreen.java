@@ -18,11 +18,11 @@ public class SpashScreen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_spash_screen);
-        TextView goilTextView = findViewById(R.id.textView);
+       // TextView goilTextView = findViewById(R.id.textView);
 
-        SpannableString spanText = new SpannableString("Goil\n energy");
-        spanText.setSpan(new RelativeSizeSpan(1.5f), 0, 4, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
-        goilTextView.setText(spanText, TextView.BufferType.SPANNABLE);
+       // SpannableString spanText = new SpannableString("Goil\n energy");
+       // spanText.setSpan(new RelativeSizeSpan(1.5f), 0, 4, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+      //  goilTextView.setText(spanText, TextView.BufferType.SPANNABLE);
 
 
         handler = new Handler();
@@ -33,6 +33,6 @@ public class SpashScreen extends AppCompatActivity {
                 startActivity(intent);
 
             }
-        },1000);
+        },1100);
     }
 }

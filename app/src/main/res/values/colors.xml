@@ -7,5 +7,7 @@
     <color name="orange_light"> #eb984e</color>
     <color name="text_color"> #17202a </color>
     <color name="background_color"> #eaeded</color>
+    <color name="logo_color_check"> #f6ddcc </color>
+    <color name="logo_color_check_one"> #edbb99 </color>
 
 </resources>
